@@ -1,5 +1,6 @@
 package com.recipe.model;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -11,6 +12,7 @@ import java.util.Set;
  */
 
 @Data
+@Builder
 @Entity
 public class Recipe {
 
